@@ -1,0 +1,1 @@
+cmd_sound/soc/codecs/tfa/built-in.o :=  ../prebuilts/gcc/linux-x86/arm/arm-eabi-4.6/bin/arm-eabi-ld -EL    -r -o sound/soc/codecs/tfa/built-in.o sound/soc/codecs/tfa/snd-soc-tfa98xx.o ; scripts/mod/modpost sound/soc/codecs/tfa/built-in.o
